@@ -1,0 +1,31 @@
+header, footer{
+  background-color: hsl(14, 100%, 37%);
+  color: #fef9ff;
+  text-align: center;
+}
+nav {
+  border-top: thin hsl(14, 100%, 37%) solid;
+  border-bottom: thin hsl(14, 100%, 37%) solid;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+    }
+    nav .btn {
+      background-color: hsl(14, 100%, 37%);
+      color: #fef9ff;
+    }
+    nav .btn:hover {
+      font-weight: bold;
+    }
+    .jumbotron{
+      background-color: hsl(14, 100%, 37%);
+      text-align: center;
+    }
+body{
+  background-color: antiquewhite;
+}
+img {
+  width:400px;
+  height: 150px;
+  border:5px dashed hsl(14, 100%, 37%);
+}
