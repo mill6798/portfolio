@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+}
+
+header, footer {
+    background-color: #3366ff;
+    color: silver;
+}
+
+.border {
+    border: medium solid blue;
+}
+
+#past-experiences {
+    border: thick dashed orange;
+}

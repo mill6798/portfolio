@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+    Name: Nick Miller
+    Date Created: 12/18/2019
+    Most recent revision: 12/18/2019
+-->
+<html lang="en">
+    <head>
+        <title>Contact Me</title>
+        <link href="styles/main.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+      <main>
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <nav>
+        <hr />
+        <p><a href="index.html" target="_blank">Home</a></p>
+        <hr />
+        <div class="clear-float"></div>
+        </nav>
+
+        <h2>Information Request</h2>
+          <form action="submit.html"
+          method="POST">
+
+          <label for="firstName">First Name:</label> <br />
+          <input type="text" id="firstName"
+          name="firstName"> <br />
+
+          <label for="lastName">Last Name:</label> <br />
+          <input type="text" id="lastName"
+          name="lastName"> <br />
+
+            <label for="phone">Phone Number:</label><br />
+            <input type="text id="phone"
+            name="phone"> <br />
+
+            <label for="contact">Best time to call:</label><br />
+            <select id="contact" name="contact">
+              <option value="default" selected>--Select One--</option>
+              <option value="morning">Morning (8AM to 12PM Central)</option>
+              <option value="afternoon">Afternoon (12PM to 5PM Central)</option>
+              <option value="evening">Evening (5PM to 8PM Central)</option>
+              </select>
+
+              <fieldset>
+                <legend>I am interested in (check all that apply)</legend><br />
+                <input type="checkbox" id="frontEnd" name="interest" value="frontEnd">
+                <label for="fronEnd">Front End Web Development</label><br />
+                <input type="checkbox" id="backEnd" name="interest" value="backEnd">
+                <label for="backEnd">Back End Web Development</label>
+                <input type="checkbox" id="database" name="interest" value="database">
+                <label for="database">Database Design</label><br />
+                </fieldset>
+
+                <fieldset>
+                  <legend>I have filled in the client questionnaire form:</legend><br />
+                  <input type="radio" id="choice1" name="questionnaire" value="yes">
+                  <label for="choice1">Yes</label><br />
+                  <input type="radio" id="choice2" name="questionnaire" value="no">
+                  <label for="choice2">No</label><br />
+                  </fieldset>
+
+                  <label for="info">Additional Information</label><br />
+                  <textarea id="info" name="info">
+                    </textarea>
+
+                    <input type="submit" name="submit" value="Submit">
+
+        <footer>
+            <p>&copy; 2020 Nick Miller.  All rights reserved.</p>
+        </footer>
+        </main>
+    </body>
+</html
