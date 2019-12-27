@@ -24,8 +24,37 @@ nav {
 body{
   background-color: antiquewhite;
 }
-img {
+.img1 {
   width:400px;
   height: 150px;
   border:5px dashed hsl(14, 100%, 37%);
+}
+.carimgs{
+  width: 500px;
+  height: 400px;
+}
+.carimgs2{
+  margin: auto;
+  background-position: center;
+  width: 600px;
+  height: 201px;
+  color: black;
+}
+.carimgs3{
+  background-position: center;
+  margin: auto;
+  width: 600px;
+  height: 400px;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+.carousel-caption h3 a {
+    color: black;
+}
+hr {
+  background-color: hsl(14, 100%, 37%); 
+  height: 1px;
+  border: 0;
 }
